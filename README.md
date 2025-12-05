@@ -6,6 +6,8 @@
 
 # 🔐 **Password Generator GUI**
 
+
+
 This project is a simple **Graphical Password Generator** built using **Python** and **Tkinter**.
 
 The application allows the user to:
@@ -49,7 +51,7 @@ Make sure to enable “Add Python to PATH” during installation.
 
 Here is a short **video** demonstrating how the Password Generator GUI works:
 
-[Click here to watch the demo](https://github.com/user-attachments/assets/1a1276b0-6b67-4566-9815-95361ead9e92)
+[Click here to watch the demo](https://github.com/user-attachments/assets/75f1ef6a-e627-4b01-9ef6-3056836a5d37)
 
 
 
