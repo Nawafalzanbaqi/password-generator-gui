@@ -81,6 +81,7 @@ or:
 bash
 
 python3 password_generator_gui.py
+
 A graphical window will open and display the Password Generator GUI.
 
 🧩 **5. How to Use the Application**
