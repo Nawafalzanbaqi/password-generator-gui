@@ -51,10 +51,6 @@ Here is a short **video** demonstrating how the Password Generator GUI works:
 
 [Click here to watch the demo](https://github.com/user-attachments/assets/1a1276b0-6b67-4566-9815-95361ead9e92)
 
-## ***Image***
-
-### *Hard Password*
-![Hard Mode](images/screenshot-hard.png.png)
 
 
 
