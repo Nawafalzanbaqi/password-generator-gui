@@ -93,3 +93,6 @@ Example output:
 nginx
 
 `aG9Fkd83LmP0Z`
+
+## 📸 Screenshots
+<img src="image/screenshot.png" width="400">
