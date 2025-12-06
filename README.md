@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python" alt="Python 3.7+">
-  <img src="https://img.shields.io/badge/CLI-Tool-success" alt="Command Line Tool">
 </p>
 
 # 🔐 **Password Generator (CLI Version)**
@@ -96,3 +95,4 @@ nginx
 
 ## 📸 Screenshots
 <img src="image/screenshot.png" width="400">
+
