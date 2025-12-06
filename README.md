@@ -1,123 +1,95 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python" alt="Python 3.7+">
-  <img src="https://img.shields.io/badge/GUI-Tkinter-success" alt="Tkinter GUI">
-  
+  <img src="https://img.shields.io/badge/CLI-Tool-success" alt="Command Line Tool">
 </p>
 
-# 🔐 **Password Generator GUI**
+# 🔐 **Password Generator (CLI Version)**
 
-<<<<<<< HEAD
-=======
+This project is a simple 
 
+**Command-Line Password Generator** written in **Python**.
 
->>>>>>> c6cbd405ee7eb1ed2bbc792c5768c7dd159638b3
-This project is a simple **Graphical Password Generator** built using **Python** and **Tkinter**.
-
-The application allows the user to:
-
-- ✏️ Enter the **password length**  
-- 🎚️ Choose the **complexity level**:
-  - **Easy** → lowercase letters only (`a–z`)
-  - **Medium** → letters + digits (`a–z + A–Z + 0–9`)
-  - **Hard** → letters + digits + symbols  
-- ⚙️ Generate a strong password based on the selected inputs  
-- 📋 Copy the generated password with a single click  
-
-
-
+The program is intentionally kept **simple** and **minimal**, and it works *only with an argument*.
 
 ---
 
-## 🛠️ **1. Requirements** 
+## ✅ **Features**
 
-To run this program, you must have
- 
- ***Python 3.7 or higher*** installed.
+- ⚙️ Generate a random password using letters + digits  
+- 📏 Requires *one mandatory argument*: password length  
+- 🚫 Will NOT run without arguments (prints usage instructions)  
+- 💨 Fast, lightweight, and cross-platform  
 
-### ✔️ Check if Python is installed:
+---
 
-Open cmd and write :
+## 🛠️ **1. Requirements**
 
-`python --version` or `python3 --version`
+- **Python 3.7+** is required.
 
-If Python is not installed, download it from:
+### ✔️ Check Python version:
+
+`python --version` 
+
+If not installed:
 
 🔗 https://www.python.org/downloads/
 
-⚠️ Windows users:
+⚠️**Windows users:**
+
 Make sure to enable “Add Python to PATH” during installation.
 
+## 🚀 2. *Running the Program.*
 
-🌀 2.  **🎥 Live Demo (Video) and screenshot**
--
+**Step 1** — Open Terminal in the project folder
 
-
-Here is a short **video** demonstrating how the Password Generator GUI works:
-
-<<<<<<< HEAD
-[Click here to watch the demo](https://github.com/user-attachments/assets/1a1276b0-6b67-4566-9815-95361ead9e92)
-
-## ***Image***
-
-### *Hard Password*
-![Hard Mode](images/screenshot-hard.png.png)
-=======
-[Click here to watch the demo](https://github.com/user-attachments/assets/75f1ef6a-e627-4b01-9ef6-3056836a5d37)
-
->>>>>>> c6cbd405ee7eb1ed2bbc792c5768c7dd159638b3
-
-
-
-
-
-🚀 4. **Running the Program**
--
-
-Step 1 — Open Terminal inside the project folder
 Windows example:
-bash
 
-`cd C:\Users\YourName\password-generator-gui`
 
-Mac / Linux:
-bash
+`cd C:\Users\\Documents\GitHub\password-generator-gui`
 
-```cd ~/password-generator-gui```
+**Mac / Linux:**
 
-Step 2 — Run the script
-bash
 
-python password_generator_gui.py
-or:
+`cd ~/password-generator-gui`
 
-bash
+**▶️ Step 2** — Run the script with a required argument
+Syntax:
+perl
 
-python3 password_generator_gui.py
-<<<<<<< HEAD
-=======
+`python password_generator.py <length>`
 
->>>>>>> c6cbd405ee7eb1ed2bbc792c5768c7dd159638b3
-A graphical window will open and display the Password Generator GUI.
+Examples:
 
-🧩 **5. How to Use the Application**
+
+`python password_generator.py 12`
+
+python password_generator.py 20
+
+### 📌 If you run the script without arguments
+
+You will see:
+
+pgsql
+
+Usage: python3 password-generator.py <length>
+Example: python3 password-generator.py 16
+
+🧩 How it Works
 -
 
-Enter the password length
-Example: 12
+You enter a number (password length)
 
-Choose the complexity level
+The script generates a password using:
 
-🟢 ***Easy*** — lowercase letters (a–z)
+- a–z
 
-🟡 ***Medium*** — lowercase + uppercase + digits
+- A–Z
 
-🔴 ***Hard*** — lowercase + uppercase + digits + symbols
+- 0–9
 
-Click Generate Password
-→ The password will appear in the text box.
+The generated password prints directly in the terminal
 
-Click Copy
-→ The password is copied to your clipboard.
+Example output:
+nginx
 
-
-
+`aG9Fkd83LmP0Z`
