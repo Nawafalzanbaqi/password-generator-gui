@@ -1,98 +1,61 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python" alt="Python 3.7+">
-</p>
+# 🔐 Python CLI Password Generator
 
-# 🔐 **Password Generator (CLI Version)**
+## 🌟 Project Overview
 
-This project is a simple 
+This repository hosts a simple, yet robust **Command-Line Interface (CLI) Password Generator** built using **Python**. The project was developed as part of the **Tuwaiq Academy** program, focusing on fundamental programming concepts and practical utility creation.
 
-**Command-Line Password Generator** written in **Python**.
+The tool is designed to quickly generate secure, random passwords of a specified length directly from the terminal, making it a fast and lightweight solution for developers and users.
 
-The program is intentionally kept **simple** and **minimal**, and it works *only with an argument*.
+## ✨ Key Features
 
----
+- **CLI-Based:** Operates entirely through the command line, ensuring speed and minimal resource usage.
+- **Customizable Length:** Requires a single mandatory argument to define the desired length of the password.
+- **Character Set:** Generates passwords using a combination of uppercase letters, lowercase letters, and digits (A-Z, a-z, 0-9).
+- **Lightweight:** Minimal dependencies, making it easy to run on any system with Python installed.
+- **Educational Focus:** A clear example of basic Python scripting, argument parsing, and random data generation.
 
-## ✅ **Features**
+## 🛠️ Technology Stack
 
-- ⚙️ Generate a random password using letters + digits  
-- 📏 Requires *one mandatory argument*: password length  
-- 🚫 Will NOT run without arguments (prints usage instructions)  
-- 💨 Fast, lightweight, and cross-platform  
+| Component | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Core Language** | Python 3 | Used for the entire scripting logic. |
+| **Libraries** | `random`, `string`, `sys` | Used for generating random choices, defining character sets, and handling command-line arguments. |
 
----
+## 🚀 Getting Started
 
-## 🛠️ **1. Requirements**
+### Prerequisites
 
-- **Python 3.7+** is required.
+- **Python 3.7+** is required to run the script.
 
-### ✔️ Check Python version:
+### Usage
 
-`python --version` 
+The script requires one argument: the desired password length (as a positive integer).
 
-If not installed:
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Nawafalzanbaqi/Python-CLI-Password-Generator.git
+    cd Python-CLI-Password-Generator
+    ```
 
-🔗 https://www.python.org/downloads/
+2.  **Run the Script:**
+    ```bash
+    python password_generator_gui.py <length>
+    ```
 
-⚠️**Windows users:**
+**Examples:**
 
-Make sure to enable “Add Python to PATH” during installation.
+| Command | Output (Example ) |
+| :--- | :--- |
+| `python password_generator_gui.py 12` | `aG9Fkd83LmP0Z` |
+| `python password_generator_gui.py 20` | `XyZ1pQ2rS3tU4vW5xY6z` |
 
-## 🚀 2. *Running the Program.*
+**Note:** Running the script without an argument will display the usage instructions.
 
-**Step 1** — Open Terminal in the project folder
+## 🤝 Contributing
 
-Windows example:
+This project is a foundational piece from the Tuwaiq Academy. While it is primarily for educational purposes, suggestions for improvements or feature additions (such as adding special characters) are welcome via Pull Requests.
 
+## 📄 License
 
-`cd C:\Users\\Documents\GitHub\password-generator-gui`
-
-**Mac / Linux:**
-
-
-`cd ~/password-generator-gui`
-
-**▶️ Step 2** — Run the script with a required argument
-Syntax:
-perl
-
-`python password_generator.py <length>`
-
-Examples:
-
-
-`python password_generator.py 12`
-
-python password_generator.py 20
-
-### 📌 If you run the script without arguments
-
-You will see:
-
-pgsql
-
-Usage: python3 password-generator.py <length>
-Example: python3 password-generator.py 16
-
-🧩 How it Works
--
-
-You enter a number (password length)
-
-The script generates a password using:
-
-- a–z
-
-- A–Z
-
-- 0–9
-
-The generated password prints directly in the terminal
-
-Example output:
-nginx
-
-`aG9Fkd83LmP0Z`
-
-## 📸 Screenshots
-<img src="image/screenshot.png" width="400">
+[Specify License, e.g., This project is open-source and available under the MIT License.]
 
